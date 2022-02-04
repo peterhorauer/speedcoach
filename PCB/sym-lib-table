@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "speedcoach")(type "KiCad")(uri "${KIPRJMOD}/speedcoach.kicad_sym")(options "")(descr ""))
+)

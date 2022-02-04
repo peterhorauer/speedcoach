@@ -1,0 +1,82 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1825027-8
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825027%7FH1%7Fpdf%7FEnglish%7FENG_CD_1825027_H1.pdf%7F1825027-8
+$ENDCMP
+#
+$CMP 440055-2
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=440055&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP Conn_01x04_Male
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DA14531MOD
+D Bluetooth Module
+F https://www.dialog-semiconductor.com/sites/default/files/2020-12/da14531mod_datasheet_v2.3.pdf
+$ENDCMP
+#
+$CMP GLCD_2.7INCH
+D Sharp GLCD 400x240
+F https://learn.adafruit.com/adafruit-sharp-memory-display-breakout/display-bad-apple-example
+$ENDCMP
+#
+$CMP MB85RC256
+D FRAM
+F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
+$ENDCMP
+#
+$CMP MCP73831
+D LiIon Battery Charger
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf
+$ENDCMP
+#
+$CMP NX3215SA-32.768K
+D Osc 32.7680KHZ
+F https://media.digikey.com/pdf/Data%20Sheets/NDK%20PDFs/NX3215SA-32.768kHz-EXS00A-MU00003.pdf
+$ENDCMP
+#
+$CMP ORG1411-PM04
+D GPS Module
+F https://origingps.com/wp-content/uploads/2021/01/Nano-Hornet-ORG1411-Datasheet-Rev-4.5.pdf
+$ENDCMP
+#
+$CMP PA1010D
+D GPS Breakout Board
+F https://shop.pimoroni.com/products/pa1010d-gps-breakout
+$ENDCMP
+#
+$CMP PIM456
+D 3DoF Accelerometer Breakout Board using MSA301
+F https://shop.pimoroni.com/products/msa301-3dof-motion-sensor-breakout
+$ENDCMP
+#
+$CMP SN74AUP1T97
+D Level Shifter
+F https://www.ti.com/lit/ds/symlink/sn74aup1t97.pdf
+$ENDCMP
+#
+$CMP STM32L071C8T6
+F https://www.st.com/resource/en/datasheet/stm32l071cb.pdf
+$ENDCMP
+#
+$CMP SWD_CON
+D SWD Connector
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library

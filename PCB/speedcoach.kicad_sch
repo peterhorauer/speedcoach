@@ -1,0 +1,253 @@
+(kicad_sch (version 20220126) (generator eeschema)
+
+  (uuid 7599133e-c681-4202-85d9-c20dac196c64)
+
+  (paper "A4")
+
+  (title_block
+    (title "Speedcoach")
+    (rev "v1")
+    (company "Peter Horauer")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "I2C Busses\n\nI2C1: BLE Module 0x50 ... 0x57\nI2C2: GPS Modules - PA1010D: 0x10, ORG1411: RX 0x60 TX 0x62\nI2C3: Accelerometer 0x26, FRAM 0x57"
+    (at 39.37 114.3 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec)
+  )
+
+  (sheet (at 38.1 38.1) (size 88.9 52.07) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000062044b49)
+    (property "Sheetname" "GPS, Acceleromter, BLE, GLCD" (id 0) (at 38.1 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "speedcoach_SensComm.kicad_sch" (id 1) (at 38.1 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 139.7 38.1) (size 88.9 52.07) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000062045098)
+    (property "Sheetname" "MCU, Charger, Buttons" (id 0) (at 139.7 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "speedcoach_MCU.kicad_sch" (id 1) (at 139.7 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000062044b49" (page "2"))
+    (path "/00000000-0000-0000-0000-000062045098" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8e1f"
+      (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8de2"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee939a"
+      (reference "#PWR03") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93c1"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8e26"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8de8"
+      (reference "#PWR06") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8dba"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8dd1"
+      (reference "#PWR08") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061f324fa"
+      (reference "#PWR09") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061f324f3"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee9411"
+      (reference "#PWR011") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee940b"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e9dd4c"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec43"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e31688"
+      (reference "#PWR017") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec78"
+      (reference "#PWR018") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e47f5d"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e33f07"
+      (reference "#PWR020") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e344e1"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e435"
+      (reference "#PWR022") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e445"
+      (reference "#PWR023") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e44b"
+      (reference "#PWR024") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e459"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e453"
+      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e401"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5b192"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5b357"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a6319b"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec49"
+      (reference "C1") (unit 1) (value "4.7uF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061fd9ff3"
+      (reference "C2") (unit 1) (value "4.3pF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061fe31d6"
+      (reference "C3") (unit 1) (value "4.3pF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec83"
+      (reference "C4") (unit 1) (value "4.7uF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e32c13"
+      (reference "C5") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e33231"
+      (reference "C6") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e333d8"
+      (reference "C7") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e3377d"
+      (reference "C8") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e33acc"
+      (reference "C9") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8e14"
+      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8e0e"
+      (reference "J2") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e91490"
+      (reference "J3") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec31"
+      (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "speedcoach:10118194-0001LF")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec37"
+      (reference "J5") (unit 1) (value "440055-2") (footprint "speedcoach:440055-2")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93ac"
+      (reference "R1") (unit 1) (value "220") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93b9"
+      (reference "R2") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93ea"
+      (reference "R3") (unit 1) (value "NP") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93d8"
+      (reference "R4") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93d0"
+      (reference "R5") (unit 1) (value "3k3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93ca"
+      (reference "R6") (unit 1) (value "3k3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec5b"
+      (reference "R7") (unit 1) (value "2k") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec6b"
+      (reference "R8") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e4be11"
+      (reference "R9") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e41d"
+      (reference "R10") (unit 1) (value "R") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e423"
+      (reference "R11") (unit 1) (value "R") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e429"
+      (reference "R12") (unit 1) (value "R") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e3ef"
+      (reference "SW1") (unit 1) (value "1825027-8") (footprint "speedcoach:1825027-8")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e3f5"
+      (reference "SW2") (unit 1) (value "1825027-8") (footprint "speedcoach:1825027-8")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e3fb"
+      (reference "SW3") (unit 1) (value "1825027-8") (footprint "speedcoach:1825027-8")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee9393"
+      (reference "U1") (unit 1) (value "PA1010D") (footprint "speedcoach:PA1010D")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ef8db4"
+      (reference "U2") (unit 1) (value "DA14531MOD") (footprint "speedcoach:DA14531MOD-00F01002")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee93f0"
+      (reference "U3") (unit 1) (value "ORG1411-PM04") (footprint "speedcoach:ORG1411")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061f324ed"
+      (reference "U4") (unit 1) (value "GLCD_2.7INCH") (footprint "speedcoach:SHARP_DISPLAY_400x240")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee9405"
+      (reference "U5") (unit 1) (value "PIM456") (footprint "speedcoach:PIM456")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec3d"
+      (reference "U8") (unit 1) (value "MCP73831") (footprint "speedcoach:MCP73831T-2ATIOT")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5a12a"
+      (reference "U?") (unit 1) (value "MB85RS256TY") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/2d8ef435-a872-40c5-b6c9-548f43f6fad4"
+      (reference "U?") (unit 1) (value "STM32L051x6") (footprint "speedcoach:STM32L071C8T6")
+    )
+    (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061fc7405"
+      (reference "XTAL1") (unit 1) (value "NX3215SA-32.768K") (footprint "speedcoach:NX3215SA-32.768K-EXS00A-MU00003")
+    )
+  )
+)
