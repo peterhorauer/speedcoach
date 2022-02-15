@@ -87,6 +87,12 @@
     (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee940b"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000062044b49/cdd369a9-5a75-4ce9-90ef-5ed1f35b388a"
+      (reference "#PWR013") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/9d13b184-381f-4e07-9aad-4f9df1fcea29"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061e9dd4c"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
@@ -126,14 +132,14 @@
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061f1e401"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5b192"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a6319b"
+      (reference "#PWR028") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5b357"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR029") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a6319b"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5b192"
+      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec49"
       (reference "C1") (unit 1) (value "4.7uF") (footprint "")
@@ -237,14 +243,17 @@
     (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee9405"
       (reference "U5") (unit 1) (value "PIM456") (footprint "speedcoach:PIM456")
     )
+    (path "/00000000-0000-0000-0000-000062044b49/f8b6d0fa-b9ae-4b44-9f65-0e28830482f3"
+      (reference "U6") (unit 1) (value "Bluefruit") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5a12a"
+      (reference "U7") (unit 1) (value "MB85RS256TY") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec3d"
       (reference "U8") (unit 1) (value "MCP73831") (footprint "speedcoach:MCP73831T-2ATIOT")
     )
-    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5a12a"
-      (reference "U?") (unit 1) (value "MB85RS256TY") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062045098/2d8ef435-a872-40c5-b6c9-548f43f6fad4"
-      (reference "U?") (unit 1) (value "STM32L051x6") (footprint "speedcoach:STM32L071C8T6")
+      (reference "U9") (unit 1) (value "STM32L051x6") (footprint "speedcoach:STM32L071C8T6")
     )
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061fc7405"
       (reference "XTAL1") (unit 1) (value "NX3215SA-32.768K") (footprint "speedcoach:NX3215SA-32.768K-EXS00A-MU00003")
