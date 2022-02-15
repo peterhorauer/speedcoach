@@ -240,20 +240,20 @@
     (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061f324ed"
       (reference "U4") (unit 1) (value "GLCD_2.7INCH") (footprint "speedcoach:SHARP_DISPLAY_400x240")
     )
-    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061ee9405"
+    (path "/00000000-0000-0000-0000-000062044b49/87bef6c6-e8e0-48ff-a9d0-968770cb6b53"
       (reference "U5") (unit 1) (value "PIM456") (footprint "speedcoach:PIM456")
     )
     (path "/00000000-0000-0000-0000-000062044b49/f8b6d0fa-b9ae-4b44-9f65-0e28830482f3"
       (reference "U6") (unit 1) (value "Bluefruit") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062044b49/00000000-0000-0000-0000-000061a5a12a"
+    (path "/00000000-0000-0000-0000-000062044b49/37d66046-4a55-4662-a586-7260fc7b6dea"
       (reference "U7") (unit 1) (value "MB85RS256TY") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec3d"
       (reference "U8") (unit 1) (value "MCP73831") (footprint "speedcoach:MCP73831T-2ATIOT")
     )
-    (path "/00000000-0000-0000-0000-000062045098/2d8ef435-a872-40c5-b6c9-548f43f6fad4"
-      (reference "U9") (unit 1) (value "STM32L051x6") (footprint "speedcoach:STM32L071C8T6")
+    (path "/00000000-0000-0000-0000-000062045098/f3bde24f-d653-4e0d-9619-c9d50aba7096"
+      (reference "U9") (unit 1) (value "STM32L051C8T3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061fc7405"
       (reference "XTAL1") (unit 1) (value "NX3215SA-32.768K") (footprint "speedcoach:NX3215SA-32.768K-EXS00A-MU00003")
