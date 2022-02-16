@@ -1379,7 +1379,7 @@
     (property "Value" "STM32L051C8T3" (id 1) (at 54.61 3.81 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (id 2) (at -26.67 13.97 0)
+    (property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm" (id 2) (at -26.67 13.97 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l051c8.pdf" (id 3) (at -17.78 16.51 0)
