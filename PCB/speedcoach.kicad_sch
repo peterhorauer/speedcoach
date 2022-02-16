@@ -14,9 +14,9 @@
   )
 
 
-  (text "I2C Busses\n\nI2C1: BLE Module 0x50 ... 0x57\nI2C2: GPS Modules - PA1010D: 0x10, ORG1411: RX 0x60 TX 0x62\nI2C3: Accelerometer 0x26, FRAM 0x57"
-    (at 39.37 114.3 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (text "I2C Interfaces\n==============\nI2C1: BLE Module DA14531: 0x50 ... 0x57, Accelerometer: 0x26\nI2C2: GPS Module PA1010D: 0x10, GPS Module ORG1411: RX 0x60 TX 0x62\n\nSPI\n===\nSPI1: GLCD\nSPI2: FRAM\n\nUSART\n=====\nUART1: BLE Module DA14531, BLE Bluefruit\n\nGPIO\n====\nOutput: PA0, PA1, PA2, PA4, PA9, PB3, PB12\nInput: PA3, PA10, PB0, PB1, PB2, PB4, PC13 "
+    (at 39.37 172.72 0)
+    (effects (font (face "DejaVu Sans Mono") (size 2.54 2.54)) (justify left bottom))
     (uuid 4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec)
   )
 
@@ -252,7 +252,7 @@
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061ecec3d"
       (reference "U8") (unit 1) (value "MCP73831") (footprint "speedcoach:MCP73831T-2ATIOT")
     )
-    (path "/00000000-0000-0000-0000-000062045098/f3bde24f-d653-4e0d-9619-c9d50aba7096"
+    (path "/00000000-0000-0000-0000-000062045098/78b5f2db-9516-41f0-a6e0-99e4c52e2bb6"
       (reference "U9") (unit 1) (value "STM32L051C8T3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062045098/00000000-0000-0000-0000-000061fc7405"
