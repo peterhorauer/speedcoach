@@ -1,0 +1,119 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "440055-2" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at 6.35 3.81 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "440055-2" (id 1) (at 11.43 -27.94 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "speedcoach:440055-2" (id 2) (at 5.08 -12.7 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=440055&DocType=Customer+Drawing&DocLang=English" (id 3) (at 0 0 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_fp_filters" "CONN_440055-2_TEC" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "440055-2_0_1"
+      (polyline
+        (pts
+          (xy 5.08 -26.67)
+          (xy 12.7 -26.67)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "440055-2_1_1"
+      (polyline
+        (pts
+          (xy 5.08 2.54)
+          (xy 5.08 -26.67)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -24.13)
+          (xy 5.08 -24.13)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -24.13)
+          (xy 8.89 -24.9682)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -24.13)
+          (xy 8.89 -23.2918)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 8.89 -0.8382)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 8.89 0.8382)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 -26.67)
+          (xy 12.7 -5.08)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 -5.08)
+          (xy 12.7 2.54)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 2.54)
+          (xy 5.08 2.54)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line (at 0 0 0) (length 5.08)
+        (name "1" (effects (font (size 1.4986 1.4986))))
+        (number "1" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin unspecified line (at 0 -24.13 0) (length 5.08)
+        (name "2" (effects (font (size 1.4986 1.4986))))
+        (number "2" (effects (font (size 1.4986 1.4986))))
+      )
+    )
+  )
+)

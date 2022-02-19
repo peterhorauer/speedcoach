@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "speedcoach")(type "KiCad")(uri "${KIPRJMOD}/libraries/speedcoach.pretty")(options "")(descr ""))
-)
