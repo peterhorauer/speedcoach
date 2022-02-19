@@ -1,6 +1,6 @@
 # speedcoach
 
-Develop a rowing speedcoach that measures speed and acceleration and displays them on an LCD.
+A rowing speedcoach that measures speed and acceleration and displays them on a Graphic-LCD.
 
 *Parts*
 
