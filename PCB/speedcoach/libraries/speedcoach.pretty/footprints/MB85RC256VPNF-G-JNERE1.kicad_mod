@@ -1,6 +1,6 @@
 (footprint "MB85RC256VPNF-G-JNERE1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 620FD58B)
+  (tedit 621212EF)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))

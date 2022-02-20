@@ -1,4 +1,4 @@
-20135032450401627
+20136678125163555
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85638,6 +85638,13 @@ Through hole angled pin header THT 1x02 2.54mm single row
 8
 8
 speedcoach
+DA14531MOD-00F01002
+
+
+0
+16
+16
+speedcoach
 MB85RC256VPNF-G-JNERE1
 
 
@@ -85681,6 +85688,13 @@ PA1010D_WH
 5
 speedcoach
 PIM456
+
+
+0
+5
+5
+speedcoach
+PIM456_WH
 
 
 0
